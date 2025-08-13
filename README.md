@@ -1,3 +1,10 @@
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/downloads/)
+[![GitHub Stars](https://img.shields.io/github/stars/rispace/higher-order-Langevin-dynamics?style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/rispace/higher-order-Langevin-dynamics?style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/rispace/higher-order-Langevin-dynamics?style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/issues)
+[![License](https://img.shields.io/github/license/rispace/higher-order-Langevin-dynamics?style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/rispace/higher-order-Langevin-dynamics/ci.yml?branch=main&style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/actions)
+
 # Higher-Order Langevin Monte Carlo Algorithms
 
 This repository contains the implementation and experimental evaluation of generalized Higher-Order Langevin Monte Carlo (HoLMC) algorithms for Bayesian inference. We focus on third- and fourth-order underdamped Langevin samplers and demonstrate their performance in both regression and classification tasks using real-world datasets.
