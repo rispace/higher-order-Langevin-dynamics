@@ -1,0 +1,12 @@
+numpy
+matplotlib
+seaborn
+tqdm
+pre-commit
+ipykernel
+notebook
+scipy
+pandas
+sympy
+scikit-learn
+ucimlrepo
