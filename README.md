@@ -1,9 +1,9 @@
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/downloads/)
-[![GitHub Stars](https://img.shields.io/github/stars/rispace/higher-order-Langevin-dynamics?style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/rispace/higher-order-Langevin-dynamics?style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/rispace/higher-order-Langevin-dynamics?style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/issues)
-[![License](https://img.shields.io/github/license/rispace/higher-order-Langevin-dynamics?style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/rispace/higher-order-Langevin-dynamics/ci.yml?branch=main&style=for-the-badge)](https://github.com/rispace/higher-order-Langevin-dynamics/actions)
+[![GitHub Stars](https://img.shields.io/github/stars/rispace/higher-order-Langevin-dynamics?style=for-the-badge&_=1)](https://github.com/rispace/higher-order-Langevin-dynamics/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/rispace/higher-order-Langevin-dynamics?style=for-the-badge&_=1)](https://github.com/rispace/higher-order-Langevin-dynamics/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/rispace/higher-order-Langevin-dynamics?style=for-the-badge&_=1)](https://github.com/rispace/higher-order-Langevin-dynamics/issues)
+[![License](https://img.shields.io/github/license/rispace/higher-order-Langevin-dynamics?style=for-the-badge&_=1)](https://github.com/rispace/higher-order-Langevin-dynamics/blob/main/LICENSE)
+
 
 # Higher-Order Langevin Monte Carlo Algorithms
 
@@ -78,7 +78,7 @@ If you use this code in your work, please cite this repository as:
   author       = {Rafiq Islam},
   title        = {Codebase for Higher-Order Langevin Monte Carlo Algorithms},
   year         = {2025},
-  howpublished = {\url{https://github.com/mrislambd/higher-order-Langevin-dynamics}}
+  howpublished = {\url{https://github.com/rispace/higher-order-Langevin-dynamics}}
 }
 ```
 
