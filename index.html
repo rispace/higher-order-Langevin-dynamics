@@ -12,7 +12,7 @@
       
       
       
-        <link rel="next" href="installation/">
+        <link rel="next" href="usage/regression/">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -48,6 +48,8 @@
     
       <link rel="stylesheet" href="assets/_mkdocstrings.css">
     
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -65,7 +67,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="orange">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -121,7 +123,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="orange"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
     
   
 </form>
@@ -174,25 +176,6 @@
     
   
   Home
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="installation/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Installation
 
       </a>
     </li>
@@ -361,28 +344,6 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="installation/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Installation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
     
     
     
@@ -395,10 +356,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   
@@ -411,8 +372,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Usage
           </label>
@@ -557,11 +518,19 @@
 
 
 <h1 id="holmc">holmc<a class="headerlink" href="#holmc" title="Permanent link">&para;</a></h1>
+<p><a href="https://www.python.org/downloads/"><img alt="Python Version" src="https://img.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&amp;logo=python" /></a>
+<a href="https://github.com/rispace/higher-order-Langevin-dynamics/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/rispace/higher-order-Langevin-dynamics?style=for-the-badge&amp;_=1" /></a>
+<a href="https://github.com/rispace/higher-order-Langevin-dynamics/network/members"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/rispace/higher-order-Langevin-dynamics?style=for-the-badge&amp;_=1" /></a>
+<a href="https://github.com/rispace/higher-order-Langevin-dynamics/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/rispace/higher-order-Langevin-dynamics?style=for-the-badge&amp;_=1" /></a>
+<a href="https://github.com/rispace/higher-order-Langevin-dynamics/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/rispace/higher-order-Langevin-dynamics?style=for-the-badge&amp;_=1" /></a></p>
+<hr />
 <p><strong>A Higher-Order Langevin Monte Carlo Sampler for Bayesian Learning</strong></p>
 <p>Holmc provides third- and fourth-order Langevin MCMC samplers designed for
 efficient sampling in Bayesian regression and classification problems.</p>
-<p><a href="https://pypi.org/project/holmc/"><img alt="PyPI" src="https://img.shields.io/pypi/v/holmc.svg" /></a>
-<a href="https://pypi.org/project/holmc/"><img alt="Python" src="https://img.shields.io/pypi/pyversions/holmc.svg" /></a></p>
+<h1 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h1>
+<p>Install from PyPI:</p>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>holmc
+</code></pre></div>
 
 
 
