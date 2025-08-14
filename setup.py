@@ -12,6 +12,7 @@ setup(
     author_email="rislam@fsu.edu",
     license="MIT",
     packages=find_packages(where=".", include=["holmc", "holmc.*"]),
+    python_requires=">=3.10",
     install_requires=[
         "numpy",
         "matplotlib",
